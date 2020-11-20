@@ -152,6 +152,26 @@ button {
   box-shadow: 0 0 10px 5px rgba(0,0,0,0.1);
 }
 
+.logoutBtn--google {
+  background: #430e80;
+  text-align: center;
+  padding: 5px 20px 5px
+}
+
+.logoutBtn--google:hover,
+.logoutBtn--google:focus {
+  background: #482ad1;
+  box-shadow: 0 0 10px 5px rgba(0,0,0,0.1);
+}
+
+.avatar {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 10px rgba(0,0,0,0.1);
+  object-fit: cover;
+}
+
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0;
